@@ -13,19 +13,19 @@ from threading import Thread
 #파이어베이스 데이터베이스 인증
 cred = credentials.Certificate('theft-detection-675d4-firebase-adminsdk-3tpl1-2a9e46282d.json') #인증키 1V
 firebase_admin.initialize_app(cred,{
-    "projectId": "theft-detection-675d4",
-    'databaseURL' : 'https://theft-detection-675d4-default-rtdb.firebaseio.com/' #1V
+    "projectId": PROJECT_ID,
+    'databaseURL' : URL_DB
     })
 
 config = { #파이어 베이스 스토리지 연동관련 1V
-    "apiKey": "AIzaSyAzsMYVmUcv_qIsoTR8GTRDoN6Tq2gXab8",
-    "authDomain": "theft-detection-675d4.firebaseapp.com",
-    "databaseURL": "https://theft-detection-675d4-default-rtdb.firebaseio.com",
-    "projectId": "theft-detection-675d4",
-    "storageBucket": "theft-detection-675d4.appspot.com",
-    "messagingSenderId": "103969772175",
-    "appId": "1:103969772175:web:c843c3c105fbc84d94d6fa",
-    "measurementId": "G-V1KQHD5ZK4"
+    "apiKey": API_KEY,
+    "authDomain": URL_DOMAIN,
+    "databaseURL": URL_DB,
+    "projectId": PROJECT_ID,
+    "storageBucket": URL_BUCKET,
+    "messagingSenderId": MS_ID,
+    "appId": APP_ID,
+    "measurementId": M_ID
 }
 
 #파이어 베이스 스토리지 다운로드
