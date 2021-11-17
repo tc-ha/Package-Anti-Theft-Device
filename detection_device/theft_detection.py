@@ -1,6 +1,6 @@
 # 파일명: theft_detection.py
 # 파일설명: 택배 도난 감지 기기를 실행시키고 도난을 감지하는 모듈을 구현함.
-# 개발자: 신예나
+# 개발자: 신##
 # 개발일: 2021.05.
 
 import RPi.GPIO as GPIO
@@ -15,10 +15,9 @@ from firebase_admin import storage
 from firebase_admin import firestore
 from uuid import uuid4
 
-url = "http://218.239.22.19:10025/detect_pack" # 택배 인식 알고리즘 서버 url
+url = URL # 택배 인식 알고리즘 서버 url
 
-PROJECT_ID = "theft-detection-675d4" # firebase project ID
-cred = credentials.Certificate("../Downloads/theft-detection-675d4-firebase-adminsdk-3tpl1-1f2a8cdb45.json")
+cred = credentials.Certificate("../Downloads/ADMIN.json")
 default_app = firebase_admin.initialize_app(cred, {
     'storageBucket': f"{PROJECT_ID}.appspot.com"
 });
