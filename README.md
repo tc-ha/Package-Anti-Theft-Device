@@ -9,7 +9,7 @@
 
 졸업프로젝트로 개발한 Raspberry Pi
 
-![alt](../res/anti-theft-arch-real.png)
+![alt](/images/anti-theft-arch-real.png)
 
 
 
