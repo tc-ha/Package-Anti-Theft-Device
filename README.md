@@ -1,18 +1,25 @@
-# Package Theft Protection Device
+<center> # Package Theft Protection Device </center>
 
 
 ---
 
-2021.03 ~ 2021.06
+<center> 2021.03 ~ 2021.06 </center>
 
 ---
 
-An Deep learning-powered device to prevent people from stealing packages
+<center> An Deep learning-powered device to prevent people from stealing packages </center>
 
 
 ![alt](/images/anti-theft-arch-real.png)
 
 
+Table of Contents
+
+---
+
+- About the Project
+- License
+- Contact
 
 ---
 
