@@ -24,7 +24,7 @@
 
 
 
-As the demand for non-face-to-face delivery, which does not receive parcels directly in front of the house, has increased, the risk of lost delivery has risen.
+As the demand for non-face-to-face delivery, which does not receive packages directly in front of the house, has increased, the risk of lost delivery has risen.
 
 As a result, many services have been created to monitor the front door by installing CCTVs linked to smartphones.
 
