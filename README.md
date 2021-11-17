@@ -7,7 +7,8 @@
 
 ---
 
-졸업프로젝트로 개발한 Raspberry Pi
+An Deep learning-powered device to prevent people from stealing packages
+
 
 ![alt](/images/anti-theft-arch-real.png)
 
